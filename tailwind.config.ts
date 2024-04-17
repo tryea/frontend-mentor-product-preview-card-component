@@ -8,6 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        cream: "#F2EAE2",
+        aurometal_saurus: "#6C7289",
+        deep_aquamarine: "#3D8168",
+        deep_aquamarine_hover: "#1A4032",
+        gun_metal: "#1C232B",
+      },
+      fontFamily: {
+        montserrat: "var(--font-montserrat)",
+        fraunces: "var(--font-fraunces)",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
