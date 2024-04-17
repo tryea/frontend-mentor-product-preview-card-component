@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex flex-1 h-dvh flex-col items-center justify-center font-montserrat bg-cream px-4 py-7">
-      <div className="flex flex-col sm:flex-row bg-white w-full rounded-[10px] sm:w-[600px] sm:h-[450px]">
+      <div className="flex flex-col sm:flex-row bg-white w-full rounded-[10px] sm:w-[600px] sm:h-[450px] overscroll-contain overflow-scroll scrollbar-hide">
         <div className="flex flex-col w-full h-full sm:w-[300px]">
           <div className="relative w-full aspect-[300/450]">
             <Image
